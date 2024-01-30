@@ -26,3 +26,8 @@ export const completeTodo = async(id: string) => {
   })
   revalidatePath("/todos")
 }
+
+export const deleteTodo = async(id: string) => {
+  await db.todo.delete({where: {id}})
+  revalidatePath("todos")
+}

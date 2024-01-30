@@ -16,8 +16,8 @@ const getData = async () => {
 const TodosPage = async () => {
   const todos = await getData()
   return (
-    <div className="mt-3 mb-3">
-      <h2>My todos list</h2>
+    <div className="mt-3 mb-3 w-[70%]">
+      <h2 className='font-bold'>My todos list</h2>
       <TodoList todos={todos} />
     </div>
   )
