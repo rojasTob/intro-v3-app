@@ -11,7 +11,9 @@ export const newTodo = async(data: FormData) => {
         content: newTodo,
       },
     })
-    revalidatePath("/todos")
+    //If you must perform a mutation in your server action, as in you change some data and need that change to be reflected on the screen, 
+    //you can use revalidate to tell Next.js to fetch the data again for that given path
+    revalidatePath("/todos") 
   }
 }
 
