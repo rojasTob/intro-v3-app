@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className + " py-6 px-4"}>
         <header>
-          <nav>
+          <nav className='bg-gray-400 p-6'>
               <ul className="flex items-center gap-4">
                 {/* <a href="#" className=" hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Team</a> */}
                 {links.map(link => (
@@ -37,7 +37,7 @@ export default function RootLayout({
               </ul>
             </nav>
         </header>
-        <main className='container py-6'>
+        <main className='container py-6 px-6'>
           {children}
         </main>
         <footer></footer>
