@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## About this project
 
-This project contains basic concepts of Nextjs following this [`guide`](https://scottmoss.notion.site/scottmoss/Intro-to-Next-js-V3-6cefbdba58d94e3897dcb8d7e7fc0337) by Scott Moss.
+This project contains basic concepts of Nextjs following a guide by Scott Moss.
 
 ## Install
 
